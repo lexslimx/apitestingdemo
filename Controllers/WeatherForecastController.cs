@@ -26,7 +26,7 @@ namespace ApiTestingDemo.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            throw new Exception("No");
+            //throw new Exception("Failed to demonstrate failed test");
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
